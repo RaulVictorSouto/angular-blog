@@ -1,0 +1,32 @@
+.container_menu-bar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container_menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_menu-bar > ul > li{
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.container_menu-bar > a{
+  transition: transform 0.5s;
+}
+
+.container_menu-bar a:hover{
+  color: #bbb ;
+}

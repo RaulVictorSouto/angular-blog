@@ -1,0 +1,42 @@
+.small-card {
+  margin-top: 20px;
+  width: 700px;
+  height: 180px;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+
+.small-card a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+
+}
+
+.small-card_photo img {
+  width: 300px;
+  object-fit: cover;
+}
+
+.small-card_text h1,
+.small-card_text p {
+  margin-left: 15px;
+  display: flex;
+  transition: transform 0.3s;
+}
+
+.small-card_text p{
+  color: #dddddd;
+}
+
+
+.small-card_text h1:hover {
+  color: #bbb;
+}
+.small-card_text p:hover {
+  color: #ccc;
+}
+.small-card_photo img:hover {
+  opacity: 90%;
+}
