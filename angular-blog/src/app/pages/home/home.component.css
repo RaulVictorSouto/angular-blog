@@ -5,3 +5,8 @@
   justify-content: center;
   height: 100vh;
 }
+.subtitulo{
+  margin-left: 250px;
+  font-size: 60px;
+  margin-top: 30px;
+}

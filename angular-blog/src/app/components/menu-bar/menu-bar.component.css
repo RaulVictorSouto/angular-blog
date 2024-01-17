@@ -1,6 +1,9 @@
 .container_menu-bar {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 1000;
 }
 
 .container_menu-bar > ul {
@@ -9,13 +12,17 @@
   font-weight: bold;
   justify-content: center;
   align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.container_menu-bar > ul > li{
+.container_menu-bar > ul > li {
   margin-right: 20px;
   margin-left: 20px;
   font-size: 15px;
 }
+
 .dot {
   height: 5px;
   width: 5px;
@@ -23,10 +30,13 @@
   border-radius: 50%;
 }
 
-.container_menu-bar > a{
+.container_menu-bar a {
+  text-decoration: none;
+  color: #fff;
   transition: transform 0.5s;
 }
 
-.container_menu-bar a:hover{
-  color: #bbb ;
+.container_menu-bar a:hover {
+  color: #bbb;
 }
+

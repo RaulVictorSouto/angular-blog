@@ -1,13 +1,30 @@
 <app-menu-bar></app-menu-bar>
 <app-menu-title></app-menu-title>
+<h2 class="subtitulo">Notícias</h2>
 <div class="articles">
   <div class="articles_main">
-    <app-big-card></app-big-card>
+    <app-big-card
+    [title]="'Unidade Evangelion 01 - O Protetor do Futuro'"
+    [description]="' Explore a intrigante jornada da Unidade Evangelion 01, uma poderosa máquina de combate biomecânica.Projetada para defender a humanidade contra as ameaças dos Anjos, essa unidade representa a últimaesperança em um mundo à beira do colapso. Descubra os mistérios por trás dessa criação notável enquanto ela enfrenta desafios épicos e se torna um símbolo de resistência em meio à adversidade.'"
+    [imageUrl]="'https://recantododragao.com.br/wp-content/uploads/2017/01/neon_genesis_evangelion-e1484094425489.jpg'"
+    ></app-big-card>
   </div>
   <div class="articles_others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+  [title]="'Mapa dos Ataques dos Anjos Revelado'"
+  [description]="'Uma Jornada Detalhada Pela Localização e Intensidade dos Ataques: Descubra os Pontos Críticos e Desafios Diante da Ameaça dos Anjos.'"
+  [imageUrl]="'https://steamuserimages-a.akamaihd.net/ugc/1716408815746321638/A2D626CC8D67463064949B8AFAEDF4F4F460EB8A/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true'"
+  ></app-small-card>
+  <app-small-card
+  [title]="'Tragédia em Tokyo: O Impacto Devastador'"
+  [description]="'Milhares Feridos e Perdas Inestimáveis: Ataque em Tokyo deixa 8482 feridos e 10383 mortos.'"
+  [imageUrl]="'https://www.animenewsnetwork.com/thumbnails/crop1200x630gE0/herald/75152/fourth-angel-s-halo-rebuild.png.jpg'"
+  ></app-small-card>
+  <app-small-card
+  [title]="'Novas Vagas de Cadetes Abertas!'"
+  [description]="'Embarque em uma Jornada Extraordinária e Faça a Diferença: Torne-se um Cadete Agora Mesmo! Desperte o Herói em Você.'"
+  ></app-small-card>
   </div>
 
 </div>
+

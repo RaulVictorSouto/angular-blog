@@ -1,13 +1,12 @@
 <div class="small-card">
   <a href="#">
     <div class="small-card_photo">
-      <img src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/04/Asi-luce-Shinji-Ikari-convertido-en-una-waifu-con-fanart-de-Neon-Genesis-Evangelion-1.jpg" alt="Imagem">
+      <img [src]="imageUrl" alt="Imagem">
     </div>
 
     <div class="small-card_text">
-      <h1>Unidade Evangelion 01</h1>
-      <p>Explore a incrível jornada da Unidade Evangelion 01, a poderosa e misteriosa máquina de combate biomecânica. Projetada para defender
-        a humanidade contra as ameaças dos Anjos, essa unidade é a última esperança em um mundo à beira do colapso.</p>
+      <h1>{{ title }}</h1>
+      <p>{{ description }}</p>
     </div>
   </a>
   <div class="small-card_separator">
