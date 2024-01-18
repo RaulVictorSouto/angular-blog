@@ -1,0 +1,47 @@
+/* footer.component.css */
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer > h3 {
+ font-size: 20px;
+ margin-top: 50px;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.footer > hr {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ }
+
+.links{
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+
+.links > a {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.links > a:hover {
+  color: #aaa
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+

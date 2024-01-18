@@ -26,6 +26,10 @@
   transition: transform 0.3s;
 }
 
+.small-card_text h1{
+  font-weight: bold;
+}
+
 .small-card_text p{
   color: #dddddd;
 }

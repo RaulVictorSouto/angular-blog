@@ -1,0 +1,28 @@
+.small-card {
+  max-width: 340px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.small-card img {
+  width: 100%;
+  height: 300px;
+}
+
+.small-card-text {
+  padding: 15px;
+}
+
+.small-card-text h3 {
+  margin-bottom: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.small-card h3:hover {
+  color: #bbb;
+}
+
+.small-card img:hover {
+  opacity: 90%;
+}

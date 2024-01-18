@@ -12,5 +12,14 @@
   .articles_others{
     margin-top: 50px;
   }
+
+  .vertical_articles{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+
+  }
+
 }
 
