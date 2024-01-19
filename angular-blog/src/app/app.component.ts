@@ -1,16 +1,15 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { BigCardComponent } from "./components/big-card/big-card.component";
-import { MenuTitleComponent } from "./components/menu-title/menu-title.component";
 import { HomeComponent } from "./pages/home/home.component";
+import { ContentComponent } from './pages/content/content.component';
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, BigCardComponent, MenuTitleComponent, HomeComponent]
+    imports: [CommonModule, RouterOutlet, HomeComponent,ContentComponent]
 })
 export class AppComponent {
   title = 'angular-blog';
