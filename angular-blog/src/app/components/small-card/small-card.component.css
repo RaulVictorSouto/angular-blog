@@ -20,10 +20,14 @@
 }
 
 .small-card_text h1,
-.small-card_text p {
+.small-card_text span {
   margin-left: 15px;
   display: flex;
   transition: transform 0.3s;
+}
+
+.small-card_text span {
+ font-size: 15px;
 }
 
 .small-card_text h1{
@@ -38,7 +42,7 @@
 .small-card_text h1:hover {
   color: #bbb;
 }
-.small-card_text p:hover {
+.small-card_text span:hover {
   color: #ccc;
 }
 .small-card_photo img:hover {

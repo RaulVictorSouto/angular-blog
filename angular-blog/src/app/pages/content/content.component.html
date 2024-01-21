@@ -1,16 +1,46 @@
 <div class="container_content">
   <img src="{{ photoCover }}" alt="Imagem">
   <div class="container_title">
-    <h1>{{ contentTitle }}</h1>
+    <h1 style="line-height: 1.2;">{{ contentTitle }}</h1>
   </div>
   <div class="metadata">
     <div class="author">Autor: {{ contentMetaDataAuthor }}</div>
     <div class="publish-date">Data de Publicação: {{ contentMetaDataDate }}</div>
   </div>
-  <div class="container_description">{{ contentDescription }}</div>
+  <div class="container_description" [innerHTML]="contentDescription">{{ contentDescription }}</div>
   <div class="voltar">
     <a [routerLink]="['']">Retornar à página principal</a>
   </div>
+
+
+  <div class="vertical_container">
+    <h2>Postagem relacionadas</h2>
+    <div class="vertical_articles">
+
+      <app-vertical-card
+      [id]="'5'"
+      [title]="'Descobertas Reveladoras: Novos Segredos sobre a Origem dos Anjos em Neon Genesis Evangelion!'"
+      [imageUrl]="'https://pm1.aminoapps.com/6568/6a659982bcf5c3af7612573adedb58ee5887f2ef_hq.jpg'"
+      ></app-vertical-card>
+      <app-vertical-card
+      [id]="'6'"
+      [title]="'Pilotos em Destaque: As Habilidades Extraordinárias dos Jovens Defensores das Unidades Evangelion'"
+      [imageUrl]="'https://criticalhits.com.br/wp-content/uploads/2023/11/maxresdefault-56.jpg'"
+      ></app-vertical-card>
+
+      <app-vertical-card
+      [id]="'7'"
+      [title]="'Mistérios Desvendados: As Implicações Filosóficas por Trás do Enigma da Instrumentalidade'"
+      [imageUrl]="'https://img.olhardigital.com.br/wp-content/uploads/2023/06/the-end-of-evangelion-1024x576.jpg'"
+      ></app-vertical-card>
+      <app-vertical-card
+      [id]="'8'"
+      [title]="'Desafios Épicos à Vista: Previsões para o Próximo Confronto dos Evangelions com os Anjos'"
+      [imageUrl]="'https://super.abril.com.br/wp-content/uploads/2018/07/56b3ab3e0e21630a3e115e3feva1.jpeg'"
+      ></app-vertical-card>
+
+    </div>
+    </div>
 </div>
 
 

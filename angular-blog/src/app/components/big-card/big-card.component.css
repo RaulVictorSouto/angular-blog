@@ -15,9 +15,11 @@
   font-weight: bold;
 }
 
-.big-card_description > p {
+.big-card_description > span {
   color: #dddddd;
   margin-top: 5px;
+  font-size: 17px;
+  text-align: justify;
 }
 
 .container_photo > img{
@@ -28,7 +30,7 @@
 .big-card_title > h1:hover {
   color: #bbb;
 }
-.big-card_description > p:hover {
+.big-card_description > span:hover {
   color: #ccc;
 }
 
