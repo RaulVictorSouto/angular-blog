@@ -6,6 +6,7 @@ import { ContentComponent } from './pages/content/content.component';
 import { MenuBarComponent } from "./components/menu-bar/menu-bar.component";
 import { FooterComponent } from "./components/footer/footer.component";
 
+
 @Component({
     selector: 'app-root',
     standalone: true,
@@ -14,5 +15,5 @@ import { FooterComponent } from "./components/footer/footer.component";
     imports: [CommonModule, RouterOutlet, HomeComponent, ContentComponent, MenuBarComponent, FooterComponent]
 })
 export class AppComponent {
-  title = 'angular-blog';
+  title = 'Neon Genesis Evangelion';
 }

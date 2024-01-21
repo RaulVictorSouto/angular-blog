@@ -1,18 +1,16 @@
 <div class="container_content">
-  <div class="content_cover"></div>
-    <img src = {{ photoCover }} alt="Imagem">
+  <img src="{{ photoCover }}" alt="Imagem">
   <div class="container_title">
     <h1>{{ contentTitle }}</h1>
   </div>
   <div class="metadata">
     <div class="author">Autor: {{ contentMetaDataAuthor }}</div>
-    <div class="publish-date">Data de Publicação: {{contentMetaDataDate}}</div>
+    <div class="publish-date">Data de Publicação: {{ contentMetaDataDate }}</div>
   </div>
   <div class="container_description">{{ contentDescription }}</div>
   <div class="voltar">
     <a [routerLink]="['']">Retornar à página principal</a>
   </div>
 </div>
-
 
 
